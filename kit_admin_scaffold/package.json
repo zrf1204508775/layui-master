@@ -1,0 +1,34 @@
+{
+  "name": "kit_admin_scaffold",
+  "version": "1.2.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "http://kit.zhengjinfan.cn",
+  "author": "Van Zheng",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-header": "^2.0.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-if": "^2.0.2",
+    "gulp-less": "^3.4.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch-less": "^1.0.1",
+    "gulp-webserver": "^0.9.1",
+    "gulp-zip": "^4.1.0"
+  }
+}
